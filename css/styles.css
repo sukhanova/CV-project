@@ -1,0 +1,98 @@
+/* Global Layout Set-up */
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: #222;
+    background: #f7f5f0;
+}
+
+/* Link Styles */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0000b3;
+}
+a:hover {
+    color: #cc0000;
+}
+
+/* Section Styles */
+.info {
+    list-style-type: none;
+    text-align: center;
+}
+.info li {
+    display: inline-block;
+    font-size: 15px;
+    padding: 20px;
+}
+.card {
+    margin: 20px;
+    padding: 20px 40px 40px;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+}
+.company-name {
+    font-size: 20px;
+}
+ul.experience-info {
+    list-style-type: none;
+    text-align: left;
+}
+
+.experience-info li {
+    display: inline-block;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.card:hover {
+    border-color: #ff4d4d;
+}
+ul.skills {
+    padding: 0;
+    text-align: center;
+}
+.skills li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 3px;
+}
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+    .flex {
+        display: -ms-flexbox;
+        display: flex;
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    main {
+        padding-top: 10px;
+    }
+
+    main li {
+        line-height: 1.2em;
+    }
+    main p {
+        line-height: 1.6em;
+    }
+    h3 {
+        color: #000000;
+        font-style: normal;
+        letter-spacing: .52px;
+    }
+    .quote {
+        font-style: oblique;
+        line-height: 1.5em;
+        letter-spacing: .6px;
+        
+    }
+}
