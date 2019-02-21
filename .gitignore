@@ -1,1 +1,2 @@
-CV-project/images/*.jpg
+.tmp
+CV-project/images/**
